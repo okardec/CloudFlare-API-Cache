@@ -3,7 +3,7 @@
  * Classe para tratar o cache no CloudFlare
  * 
  */
-class CloudFlare extends Basic {
+class CloudFlare{
 
 
 	const API_KEY = 'xxxxxxxxxxxxxxxx';
