@@ -109,6 +109,8 @@ class CloudFlare{
 
 		$result=curl_exec ($ch);
 		curl_close ($ch);
+		
+		print $result;
 	}
 }
 ?>
